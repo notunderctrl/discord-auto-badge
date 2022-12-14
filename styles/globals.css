@@ -14,3 +14,8 @@ a {
   color: #2ea967;
   font-weight: 500;
 }
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}

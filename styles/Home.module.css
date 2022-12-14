@@ -3,10 +3,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .wrapper h1 {
   margin-top: 30px;
+  text-align: center;
+}
+
+.textField {
+  padding: 10px;
+}
+
+.center {
   text-align: center;
 }
 
@@ -22,17 +32,14 @@
   height: 80px;
 }
 
-.main {
-  min-width: 300px;
+.main form {
   padding: 20px;
   margin: 0 auto;
   margin-top: 20px;
   background-color: rgb(22, 22, 22);
   border: 2px solid #000;
   border-radius: 10px;
-}
-
-.main form {
+  min-width: 300px;
   display: flex;
   flex-direction: column;
 }
@@ -84,4 +91,14 @@
   background-color: #000;
   padding: 2px 5px;
   border-radius: 5px;
+}
+
+.guideList {
+  padding: 0 15px;
+}
+
+.guideList img {
+  margin: 15px 0;
+  margin-bottom: 30px;
+  box-shadow: 5px 5px 5px rgb(23, 23, 23);
 }
