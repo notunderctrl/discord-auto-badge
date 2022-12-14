@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "discord.js": "^14.7.1",
     "eslint": "8.29.0",
     "eslint-config-next": "13.0.6",
     "next": "13.0.6",
