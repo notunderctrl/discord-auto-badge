@@ -111,9 +111,9 @@ export default function Home() {
               <h3>Bot running!</h3>
               {message}
               <p>
-                Your bot will automatically go offline if it's inactive for over
-                2 minutes. This is done to limit the number of bot logins at one
-                time.
+                Your bot will automatically go offline if it&apos;s inactive for
+                over 2 minutes. This is done to limit the number of bot logins
+                at one time.
               </p>
 
               <h3>Bot information:</h3>
@@ -148,7 +148,8 @@ export default function Home() {
               >
                 Discord Developer Portal
               </a>{' '}
-              by clicking on the "New Application" button on the top right.
+              by clicking on the &quot;New Application&quot; button on the top
+              right.
             </li>
             <img src="https://i.imgur.com/atm10Q8.png" alt="" />
 
@@ -158,7 +159,7 @@ export default function Home() {
             <li>Head over to the bot section on the left.</li>
             <img src="https://i.imgur.com/sng9uY6.png" alt="" />
 
-            <li>Click "Add Bot" and click "Yes do it".</li>
+            <li>Click &quot;Add Bot&quot; and click &quot;Yes do it&quot;.</li>
             <img src="https://i.imgur.com/gvU5FE7.png" alt="" />
             <img src="https://i.imgur.com/9YA9vDx.png" alt="" />
 
@@ -169,8 +170,9 @@ export default function Home() {
             <img src="https://i.imgur.com/6HUkZvh.png" alt="" />
 
             <li>
-              Once it's logged in, invite your bot using the provided link and
-              run the <span className={styles.code}>/claim</span> slash command.
+              Once it&apos;s logged in, invite your bot using the provided link
+              and run the <span className={styles.code}>/claim</span> slash
+              command.
             </li>
           </ol>
 
