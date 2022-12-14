@@ -9,3 +9,8 @@ body {
   color: #fff;
   background-color: rgb(26, 27, 27);
 }
+
+a {
+  color: #2ea967;
+  font-weight: 500;
+}
