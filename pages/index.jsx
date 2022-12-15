@@ -136,6 +136,23 @@ export default function Home() {
 
         <br />
         <div className={styles.textField}>
+          <div className={styles.guildList}>
+            <h3>Contact Information</h3>
+            <ul>
+              <li>
+                Email:{' '}
+                <a
+                  href="mailto:admin@underctrl.io"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  admin@underctrl.io
+                </a>
+              </li>
+              <li>Discord: Under Ctrl#2978 (preferred)</li>
+            </ul>
+          </div>
+
           <h2>How to use this tool</h2>
           <br />
           <ol className={styles.guideList}>

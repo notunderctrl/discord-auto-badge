@@ -2,6 +2,11 @@
 
 Get your Discord developer badge without any coding! This is an open-source tool that will allow you to automatically register slash commands and run it on your bot.
 
+If you want to get in contact with me:
+
+- Email: [admin@underctrl.io](mailto:admin@underctrl.io)
+- Discord: Under Ctrl#2978 (preferred)
+
 [**A live demo of the tool can be found here**](https://activedev.underctrl.io/)
 
 ## Instructions
