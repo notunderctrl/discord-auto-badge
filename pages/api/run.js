@@ -15,7 +15,7 @@ async function runBot(token, req, res) {
 
     setTimeout(() => {
       client.destroy();
-    }, 150000);
+    }, 120000);
   });
 
   client.on('interactionCreate', (interaction) => {
