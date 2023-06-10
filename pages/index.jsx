@@ -19,27 +19,21 @@ export default function Home() {
 
     try {
       const res = await axios.post('/api/run', { token });
-      console.log(res.status);
-      console.log(res.data);
 
       if (res.status === 200) {
         setSuccess(true);
         toast.success('Logged in successfully.');
         setMessage(
           <p>
-            Your bot is currently online. Invite your bot from{' '}
-            <a
-              href={res.data.inviteURL}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            Your bot is now online! Invite your bot using{' '}
+            <a href={res.data.inviteURL} target="_blank" rel="noopener noreferrer">
               here
             </a>
           </p>
         );
 
-        const { id, username, tag } = res.data;
-        setBotInfo({ id, username, tag });
+        const { id, username } = res.data;
+        setBotInfo({ id, username });
       } else {
       }
     } catch (err) {
@@ -84,8 +78,8 @@ export default function Home() {
             >
               open-source tool
             </a>{' '}
-            that will allow you to automatically register slash commands and run
-            it one time on your bot.
+            that will allow you to automatically register slash commands and run it one time on your
+            bot.
           </p>
         </div>
 
@@ -111,9 +105,8 @@ export default function Home() {
               <h3>Bot running!</h3>
               {message}
               <p>
-                Your bot will automatically go offline if it&apos;s inactive for
-                over 2 minutes. This is done to limit the number of bot logins
-                at one time.
+                Your bot will automatically go offline if it&apos;s inactive for over 2 minutes.
+                This is done to limit the number of bot logins at one time.
               </p>
 
               <h3>Bot information:</h3>
@@ -123,11 +116,7 @@ export default function Home() {
                   ID: <span className={styles.code}>{botInfo.id}</span>
                 </li>
                 <li>
-                  Username:{' '}
-                  <span className={styles.code}>{botInfo.username}</span>
-                </li>
-                <li>
-                  Tag: <span className={styles.code}>{botInfo.tag}</span>
+                  Username: <span className={styles.code}>{botInfo.username}</span>
                 </li>
               </ul>
             </div>
@@ -148,8 +137,7 @@ export default function Home() {
               >
                 Discord Developer Portal
               </a>{' '}
-              by clicking on the &quot;New Application&quot; button on the top
-              right.
+              by clicking on the &quot;New Application&quot; button on the top right.
             </li>
             <img src="https://i.imgur.com/atm10Q8.png" alt="" />
 
@@ -170,9 +158,8 @@ export default function Home() {
             <img src="https://i.imgur.com/6HUkZvh.png" alt="" />
 
             <li>
-              Once it&apos;s logged in, invite your bot using the provided link
-              and run the <span className={styles.code}>/claim</span> slash
-              command.
+              Once it&apos;s logged in, invite your bot using the provided link and run the{' '}
+              <span className={styles.code}>/claim</span> slash command.
             </li>
           </ol>
 
@@ -184,15 +171,11 @@ export default function Home() {
             <ul>
               <li>
                 Email:{' '}
-                <a
-                  href="mailto:admin@underctrl.io"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  admin@underctrl.io
+                <a href="mailto:admin@underctrl.io" target="_blank" rel="noopener noreferrer">
+                  avraj@underctrl.io
                 </a>
               </li>
-              <li>Discord: Under Ctrl#2978 (preferred)</li>
+              <li>Discord: Under Ctrl#0001 (preferred)</li>
             </ul>
           </div>
 
