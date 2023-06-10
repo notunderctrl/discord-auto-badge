@@ -171,7 +171,7 @@ export default function Home() {
             <ul>
               <li>
                 Email:{' '}
-                <a href="mailto:admin@underctrl.io" target="_blank" rel="noopener noreferrer">
+                <a href="mailto:avraj@underctrl.io" target="_blank" rel="noopener noreferrer">
                   avraj@underctrl.io
                 </a>
               </li>
